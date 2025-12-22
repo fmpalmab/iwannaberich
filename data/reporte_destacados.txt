@@ -1,0 +1,82 @@
+=== REPORTE DE INTELIGENCIA DE MERCADO ===
+Total Activos Analizados: 242
+=========================================
+
+🏆 TOP 10 EFICIENCIA (Sharpe Ratio)
+(Mejor retorno ajustado por riesgo)
+               Sharpe_Ratio  Retorno_Anualizado  Volatilidad_Anual
+CFIFTUFP-E.SN      3.139192            0.091279           0.014742
+CFIPIONR.SN        2.522821            0.302734           0.102161
+CFIFTRLP-E.SN      2.495464            0.088778           0.017543
+NTGCLGAS.SN        2.346170            0.759829           0.304679
+CFITODPX-E.SN      2.340962            0.085427           0.017270
+CFIBTGCYFA.SN      2.295462            0.233269           0.082018
+CFIADI6FID.SN      2.221105            0.116757           0.032307
+CFIFTCLP-E.SN      1.708434            0.098170           0.031122
+OXIQUIM.SN         1.670305            0.275248           0.137848
+CFIDAG3R-E.SN      1.619293            0.109562           0.039870
+
+----------------------------------------
+
+🛡️ TOP 10 DEFENSA (Menor Volatilidad)
+(Activos más estables)
+               Volatilidad_Anual  Max_Drawdown  VaR_95_Diario
+CFIETFCD.SN             0.008322     -0.015476      -0.000323
+CFINHRFLA.SN            0.011802     -0.008700      -0.000855
+CFIFTUFP-E.SN           0.014742     -0.000250       0.000000
+CFITODPX-E.SN           0.017270     -0.003895      -0.000267
+CFIFTRLP-E.SN           0.017543     -0.007668      -0.000073
+CFINHRFLB.SN            0.021066     -0.007207       0.000000
+CFIPADIA.SN             0.025814     -0.023335       0.000000
+CFIETFCC.SN             0.029123     -0.104739      -0.002395
+CFIMBIDT-B.SN           0.029519     -0.041410      -0.002315
+CFIFTCLP-E.SN           0.031122     -0.023887       0.000000
+
+----------------------------------------
+
+📉 TOP 10 CAÍDAS FUERTES (Potencial Rebote)
+(Activos rentables con mayor descuento desde máximos)
+               Max_Drawdown  Retorno_Anualizado  Calmar_Ratio
+ACWI.SN           -1.255996            0.276845      0.220419
+CFIWEG-1.SN       -1.181857            0.087641      0.074156
+CFIAFIIA-E.SN     -1.018006            0.071704      0.070436
+IAUCL.SN          -0.998001            0.323870      0.324519
+GOOGLCL.SN        -0.954194            0.306696      0.321419
+EISA.SN           -0.737387            0.226967      0.307799
+SQM-B.SN          -0.724437            0.130289      0.179848
+MASISA.SN         -0.708593            0.109559      0.154615
+IANSA.SN          -0.682995            0.262896      0.384917
+SQM-A.SN          -0.675761            0.185144      0.273979
+
+----------------------------------------
+
+⚠️ ALERTA DE RIESGO: COLAS GORDAS (Kurtosis Alta)
+(Mayor probabilidad de eventos extremos/cisnes negros)
+                  Kurtosis   Skewness  CVaR_95_Diario
+CFIPSAV4-E.SN  1098.528061 -32.036979       -0.002290
+CFIIMDLAT.SN    993.972492  30.328565       -0.011492
+NAVARINO.SN     905.016407  27.925634       -0.000248
+ACWI.SN         900.044857  27.712023       -0.024994
+IAU.SN          807.291773  25.572108       -0.022727
+CRUZADOS.SN     760.960936 -26.523822       -0.000854
+ESSBIO-C.SN     685.004904  18.085460       -0.000548
+RTX.SN          680.932974 -19.566855       -0.000434
+IAUCL.SN        638.566382   8.455785       -0.117819
+CEMENTOS.SN     575.794174  20.438244       -0.000902
+
+----------------------------------------
+
+🚀 ASIMETRÍA POSITIVA (Skewness > 0)
+(Históricamente, sus subidas son más violentas que sus bajadas)
+                Skewness  Retorno_Anualizado  Prob_Subida
+CFIIMDLAT.SN   30.328565            0.211828     0.488746
+NAVARINO.SN    27.925634            0.217190     0.008842
+ACWI.SN        27.712023            0.276845     0.240354
+IAU.SN         25.572108            0.302027     0.113344
+CEMENTOS.SN    20.438244            0.252627     0.058682
+IEVCL.SN       20.002216            0.165866     0.014469
+ESSBIO-C.SN    18.085460            0.001823     0.006431
+CFI-CLHUIE.SN  15.923164            0.108199     0.005627
+CFIACOLA-E.SN  15.854758            0.116530     0.012862
+CFIBTHBI-E.SN  15.012087            0.097743     0.004823
+
