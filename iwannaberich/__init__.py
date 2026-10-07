@@ -20,5 +20,8 @@ from iwannaberich.scanner import scan_market, scan_asset_signals
 from iwannaberich.visualizer import plot_technical_analysis
 from iwannaberich.report import generate_market_report
 from iwannaberich.pipeline import run_full_pipeline
+from iwannaberich.simulation import simulate_monte_carlo, plot_monte_carlo, MonteCarloResult
+from iwannaberich.portfolio import optimize_portfolio, plot_efficient_frontier, EfficientFrontierResult, PortfolioAllocation
+from iwannaberich.data_updater import sync_market_data
 
-__version__ = "2.0.0"
+__version__ = "2.1.0"

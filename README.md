@@ -82,10 +82,19 @@ python -m iwannaberich --matrix
 # 4. Imprimir reporte ejecutivo de destacados (Top Sharpe, Defensa, Rebote, Colas gordas)
 python -m iwannaberich --report
 
-# 5. Generar gráfico técnico de un activo específico (guarda en PNG de alta resolución)
+# 5. Simulación Estocástica de Monte Carlo (Conos de confianza, VaR y CVaR proyectados)
+python -m iwannaberich --monte-carlo SQM-B.SN --sims 1000 --horizon 252
+
+# 6. Optimización de Portafolios Markowitz & Frontera Eficiente (Max Sharpe & Min Variance)
+python -m iwannaberich --portfolio-opt
+
+# 7. Sincronizar y actualizar cotizaciones a la fecha más reciente (Online Yahoo Finance + Extensión)
+python -m iwannaberich --update-data
+
+# 8. Generar gráfico técnico de un activo específico (guarda en PNG de alta resolución)
 python -m iwannaberich --plot SQM-B.SN --output data/analisis_SQM.png
 
-# 6. Generar dataset sintético para pruebas locales o CI sin conexión
+# 9. Generar dataset sintético para pruebas locales o CI sin conexión
 python -m iwannaberich --synth
 ```
 
