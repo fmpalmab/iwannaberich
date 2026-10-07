@@ -1,82 +1,78 @@
-=== REPORTE DE INTELIGENCIA DE MERCADO ===
-Total Activos Analizados: 242
-=========================================
+=================================================================
+📊 REPORTE DE INTELIGENCIA DE MERCADO BURSÁTIL (.SN)
+Total Activos Analizados: 173
+=================================================================
 
-🏆 TOP 10 EFICIENCIA (Sharpe Ratio)
-(Mejor retorno ajustado por riesgo)
+🏆 TOP 10 EFICIENCIA (Sharpe Ratio - Mayor retorno por riesgo)
                Sharpe_Ratio  Retorno_Anualizado  Volatilidad_Anual
-CFIFTUFP-E.SN      3.139192            0.091279           0.014742
-CFIPIONR.SN        2.522821            0.302734           0.102161
-CFIFTRLP-E.SN      2.495464            0.088778           0.017543
-NTGCLGAS.SN        2.346170            0.759829           0.304679
-CFITODPX-E.SN      2.340962            0.085427           0.017270
-CFIBTGCYFA.SN      2.295462            0.233269           0.082018
-CFIADI6FID.SN      2.221105            0.116757           0.032307
-CFIFTCLP-E.SN      1.708434            0.098170           0.031122
-OXIQUIM.SN         1.670305            0.275248           0.137848
-CFIDAG3R-E.SN      1.619293            0.109562           0.039870
+CFITDPX1-E.SN      3.581067            0.076726           0.008859
+CFIPIONR.SN        2.503612            0.299408           0.101616
+NTGCLGAS.SN        2.355951            0.759140           0.303122
+CFIFTRLP-E.SN      2.078450            0.086330           0.019885
+CFIBTGPLAI.SN      1.910858            0.092529           0.024873
+CFIMBD4C-E.SN      1.671273            0.087926           0.025685
+CFITDPF1-E.SN      1.630069            0.076283           0.019191
+CFIFALCSCA.SN      1.537551            0.359777           0.204727
+ENAEX.SN           1.529507            0.241915           0.128744
+CFIFTCLP-E.SN      1.490239            0.095865           0.034132
 
-----------------------------------------
+--------------------------------------------------
 
-🛡️ TOP 10 DEFENSA (Menor Volatilidad)
-(Activos más estables)
+🛡️ TOP 10 DEFENSA (Menor Volatilidad Anualizada)
                Volatilidad_Anual  Max_Drawdown  VaR_95_Diario
-CFIETFCD.SN             0.008322     -0.015476      -0.000323
-CFINHRFLA.SN            0.011802     -0.008700      -0.000855
-CFIFTUFP-E.SN           0.014742     -0.000250       0.000000
-CFITODPX-E.SN           0.017270     -0.003895      -0.000267
-CFIFTRLP-E.SN           0.017543     -0.007668      -0.000073
-CFINHRFLB.SN            0.021066     -0.007207       0.000000
-CFIPADIA.SN             0.025814     -0.023335       0.000000
-CFIETFCC.SN             0.029123     -0.104739      -0.002395
-CFIMBIDT-B.SN           0.029519     -0.041410      -0.002315
-CFIFTCLP-E.SN           0.031122     -0.023887       0.000000
+CFIETFCD.SN             0.008328     -0.015476      -0.000323
+CFITDPX1-E.SN           0.008859      0.000000       0.000000
+CFIALBION1.SN           0.014948     -0.004780      -0.001338
+CFIAFE3F.SN             0.018313     -0.000360       0.000000
+CFITDPF1-E.SN           0.019191     -0.005892       0.000000
+CFIFTRLP-E.SN           0.019885     -0.007668      -0.000070
+CFIBTGPLAI.SN           0.024873     -0.000146       0.000000
+CFIMBD4C-E.SN           0.025685      0.000000       0.000000
+CFIPADIA.SN             0.025758     -0.023335       0.000000
+CFITODPX-E.SN           0.027122     -0.003895       0.000000
 
-----------------------------------------
+--------------------------------------------------
 
-📉 TOP 10 CAÍDAS FUERTES (Potencial Rebote)
-(Activos rentables con mayor descuento desde máximos)
-               Max_Drawdown  Retorno_Anualizado  Calmar_Ratio
-ACWI.SN           -1.255996            0.276845      0.220419
-CFIWEG-1.SN       -1.181857            0.087641      0.074156
-CFIAFIIA-E.SN     -1.018006            0.071704      0.070436
-IAUCL.SN          -0.998001            0.323870      0.324519
-GOOGLCL.SN        -0.954194            0.306696      0.321419
-EISA.SN           -0.737387            0.226967      0.307799
-SQM-B.SN          -0.724437            0.130289      0.179848
-MASISA.SN         -0.708593            0.109559      0.154615
-IANSA.SN          -0.682995            0.262896      0.384917
-SQM-A.SN          -0.675761            0.185144      0.273979
+📉 TOP 10 CAÍDAS FUERTES CON RETORNO HISTÓRICO POSITIVO (Rebote)
+              Max_Drawdown  Retorno_Anualizado  Calmar_Ratio
+EISA.SN          -0.737387            0.226967      0.307799
+SQM-B.SN         -0.724437            0.130289      0.179848
+MASISA.SN        -0.708593            0.109559      0.154615
+SQM-A.SN         -0.675761            0.185144      0.273979
+ENELCHILE.SN     -0.660802            0.105944      0.160326
+BESALCO.SN       -0.659012            0.286982      0.435473
+METACL.SN        -0.655383            0.202634      0.309183
+COLBUN.SN        -0.651943            0.027641      0.042397
+ECL.SN           -0.639415            0.090280      0.141191
+TRICOT.SN        -0.639208            0.146758      0.229593
 
-----------------------------------------
+--------------------------------------------------
 
-⚠️ ALERTA DE RIESGO: COLAS GORDAS (Kurtosis Alta)
-(Mayor probabilidad de eventos extremos/cisnes negros)
+⚠️ TOP 10 ALERTA DE COLA (Kurtosis Alta - Posibles Cisnes Negros)
                   Kurtosis   Skewness  CVaR_95_Diario
-CFIPSAV4-E.SN  1098.528061 -32.036979       -0.002290
-CFIIMDLAT.SN    993.972492  30.328565       -0.011492
-NAVARINO.SN     905.016407  27.925634       -0.000248
-ACWI.SN         900.044857  27.712023       -0.024994
-IAU.SN          807.291773  25.572108       -0.022727
-CRUZADOS.SN     760.960936 -26.523822       -0.000854
-ESSBIO-C.SN     685.004904  18.085460       -0.000548
-RTX.SN          680.932974 -19.566855       -0.000434
-IAUCL.SN        638.566382   8.455785       -0.117819
-CEMENTOS.SN     575.794174  20.438244       -0.000902
+CFINHRFLA.SN   1223.477561  34.840555       -0.000850
+CFIIMDLAT.SN   1214.989948  34.688830       -0.012245
+CFINHRFLB.SN   1199.813891  34.361160       -0.000017
+CFIFYNSADB.SN  1159.314045  33.499388       -0.000038
+CFIMBIDT-B.SN  1138.240378  33.001585       -0.003075
+GOOGLCL.SN     1078.294327 -32.248506       -0.003960
+CFIMBIDA-A.SN  1049.673651  30.666143       -0.002800
+EWNCL.SN       1041.549115  31.537590        0.000000
+CFILVFA-L.SN   1034.894428  30.387940       -0.002252
+CFILVSCC-O.SN   889.580962  29.805648        0.000000
 
-----------------------------------------
+--------------------------------------------------
 
-🚀 ASIMETRÍA POSITIVA (Skewness > 0)
-(Históricamente, sus subidas son más violentas que sus bajadas)
+🚀 TOP 10 ASIMETRÍA POSITIVA (Skewness > 0 - Subidas más explosivas)
                 Skewness  Retorno_Anualizado  Prob_Subida
-CFIIMDLAT.SN   30.328565            0.211828     0.488746
-NAVARINO.SN    27.925634            0.217190     0.008842
-ACWI.SN        27.712023            0.276845     0.240354
-IAU.SN         25.572108            0.302027     0.113344
-CEMENTOS.SN    20.438244            0.252627     0.058682
-IEVCL.SN       20.002216            0.165866     0.014469
-ESSBIO-C.SN    18.085460            0.001823     0.006431
-CFI-CLHUIE.SN  15.923164            0.108199     0.005627
-CFIACOLA-E.SN  15.854758            0.116530     0.012862
-CFIBTHBI-E.SN  15.012087            0.097743     0.004823
+CFINHRFLA.SN   34.840555            0.061621     0.178600
+CFIIMDLAT.SN   34.688830            1.454435     0.511665
+CFINHRFLB.SN   34.361160            0.064462     0.038616
+CFIFYNSADB.SN  33.499388            0.055700     0.002414
+CFIMBIDT-B.SN  33.001585            0.075625     0.288013
+EWNCL.SN       31.537590            0.216706     0.010459
+CFIMBIDA-A.SN  30.666143            0.067702     0.337088
+CFILVFA-L.SN   30.387940            0.067095     0.303298
+CFILVSCC-O.SN  29.805648            0.262015     0.002242
+CFILVCOR-A.SN  24.199077            0.058419     0.201126
 
